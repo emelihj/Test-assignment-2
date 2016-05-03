@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://demo.avactis.com/4.7.9/index.php" />
+<title>View shopping cart</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">View shopping cart</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/4.7.9/product-info.php?Avactis_T-Shirt-pid36.html</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=2 items</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=View Cart</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=th.goods-page-image</td>
+	<td>Image</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=th.goods-page-description</td>
+	<td>Description</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=th.goods-page-quantity</td>
+	<td>Qty</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=th.goods-page-price</td>
+	<td>Price</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=th.goods-page-total</td>
+	<td>Total</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
